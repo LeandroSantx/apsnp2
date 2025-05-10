@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="logo.jpg" href="/img/logotipo.png" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlameGuard | Informações das Queimadas na Amazônia!</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <a href="#" class="logo">Flame<span>Guard</span></a>
+
+        <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="informacoes.html" class="active">Informações</a></li>
+          <li><a href="queimadas.html">Queimadas</a></li>
+          <li><a href="amazonia.html">Amazônia</a></li>
+        </ul>
+
+        <i class="" id=""></i>
+
+        <div class="search-box container">
+          <input type="search" name="" id="" placeholder="Pesquise aqui..." />
+        </div>
+      </div>
+    </header>
+
+    <section class="home2" id="home">
+      <!-- Seção com casos históricos de queimadas -->
+      <div class="home-text">
+        <h1>
+          Entenda Melhor sobre<br />
+          as <span>Queimadas Florestais!</span>
+        </h1>
+        <p>
+          Fique por dentro das principais informações <br />sobre as ameaças às
+          Floresta do mundo.
+        </p>
+
+        <a href="queimadas.html" class="btn">Ver Zonas de Foco</a>
+      </div>
+    </section>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        if (window.scrollY > 0) {
+          header.classList.add("shadow");
+        } else {
+          header.classList.remove("shadow");
+        }
+      });
+    </script>
+  </body>
+</html>
