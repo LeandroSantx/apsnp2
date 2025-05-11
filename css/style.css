@@ -111,18 +111,19 @@ header.shadow #search-icon{
     background-position: center left;
 }
 
-.home2{
+/*.home2{
     max-width: 1550px;
     margin: auto;
     width: 100%;
     min-height: 640px;
     display: flex;
     align-items: center;
+    flex-direction: column;
     background: url(/img/bghome2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
-}
+}*/
 
 .home3{
     max-width: 1550px;
@@ -558,4 +559,6 @@ header.shadow #search-icon{
     }
   }
   
+
+/*-------------------------------------------------CSS DA TELA DE INFORMAÇÕES---------------------------------------------*/
 
