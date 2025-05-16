@@ -46,6 +46,11 @@ header.shadow{
     transition: 0.5s ease;
 }
 
+.box{
+    box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
+    border-radius: 5%;
+}
+
 header.shadow #search-icon{
     color: var(--text-color);
 }
@@ -77,6 +82,8 @@ header.shadow #search-icon{
     display: flex;
     column-gap: 2rem;
     padding-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar a{
@@ -561,4 +568,6 @@ header.shadow #search-icon{
   
 
 /*-------------------------------------------------CSS DA TELA DE INFORMAÇÕES---------------------------------------------*/
+
+
 
