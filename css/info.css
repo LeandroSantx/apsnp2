@@ -82,8 +82,8 @@
 .home-textInfo{
     display: flex;
     flex-direction: column;
-    margin-right: 50%;
-    margin-top: 10%;
+    margin-right: 30%;
+    margin-top: 15%;
     
 }
 
@@ -137,10 +137,12 @@
     align-items: center;
 }
 
-.intro{
+.section-intro p{
     text-align: justify;
     margin-left: 40%;
-    margin-top: -10%;
+    margin-top: -15%;
+    font-weight: 500;
+    
 }
 
 .imgFlorestaChamas{
@@ -158,8 +160,8 @@
 
 .imgFlorestaChamas {
   position: absolute;
-  width: 300px;
-  height: 600px;
+  width: 204.8px;
+  height: 192px;
   
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   transition: transform 0.3s ease;
@@ -167,21 +169,21 @@
 }
 
 .imgFlorestaChamas:nth-child(1) {
-  left: 0;
+  left: 5vw;
   top: 0;
   z-index: 3;
   transform: rotate(-4deg);
 }
 
 .imgFlorestaChamas:nth-child(2) {
-  left: 250px;
+  left: 15vw;
   top: 80px;
   z-index: 2;
   transform: rotate(3deg);
 }
 
 .imgFlorestaChamas:nth-child(3) {
-  left: 40px;
+  left: 5vw;
   top: 180px;
   z-index: 1;
   transform: rotate(-2deg);
@@ -202,14 +204,25 @@
 
 .blog-containerInfo{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
     margin-top: 25vh;
+    
 }
 
 .blog-containerInfo .box{
     flex: 1 1 13rem;
     padding: 20px;
+}
+
+.blog-containerInfo .box img{
+    margin-left: 20px;
+    border-radius: 10%;
+    width: 230.4px;
+    height: 307.2px;
+    
 }
 
 .blog-containerInfo .box:hover{
@@ -220,22 +233,60 @@
     font-size: 1.2rem;
 
 }
+.blog-containerInfo .box span{
+    font-size: 0.8rem;
+    color: var(--main-color);
+}
 
 .blog-containerInfo.box p{
     font-size: 0.938rems;
     margin: 4px 0;
+    
+    
+}
+
+.blog-containerInfo .box .blog-btn{
+    display: flex;
+    align-items: baseline;
+    column-gap: 4px;
+    color: var(--text-color);
+    
+}
+
+.blog-containerInfo .box .blog-btn .bx{
+    font-size: 20px;
+}
+
+.blog-containerInfo .box .blog-btn:hover{
+    color: var(--main-color);
+    column-gap: 0.7rem;
+    transition: 0.4s;
+
 }
 
 .blog-containerInfo2{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     
 }
 
 .blog-containerInfo2 .box{
+    
     flex: 1 1 13rem;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-containerInfo2 .box img{
+    margin-left: 20px;
+    border-radius: 10%;
+    width: 230.4px;
+    height: 307.2px;
+    
 }
 
 .blog-containerInfo2 .box:hover{
@@ -275,3 +326,4 @@
     transition: 0.4s;
 
 }
+
